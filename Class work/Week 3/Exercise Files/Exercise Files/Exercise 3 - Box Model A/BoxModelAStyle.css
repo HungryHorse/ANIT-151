@@ -1,0 +1,38 @@
+#container{
+    height: 600px;
+    width: 900px;
+}
+#header{
+    height: 70px;
+    width: 900px;
+    background-color: grey;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 70px;
+}
+#leftmenu{
+    height:  500px;
+    width: 295px;
+    background-color: grey;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    line-height: 500px;
+}
+#maincontent{
+    height: 500px;
+    width: 595px;
+    background-color: grey;
+    float: left;
+    text-align: center;
+    line-height: 500px;
+}
+#footer{
+    height: 30px;
+    width: 900px;
+    background-color: grey;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+}

@@ -1,0 +1,27 @@
+#menu{
+    width: 100px;
+    list-style-type: none;
+}
+
+
+
+li {
+    margin: 2px 2px;
+    display: block;
+    background-color: grey;
+}
+
+li:hover{
+    display: block;
+    background-color: DarkGrey;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
