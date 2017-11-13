@@ -1,9 +1,9 @@
-ul > li{
+ul li{
     position: relative;
     display: inline-block;
 }
 
-li > ul{
+li ul{
     display: none;
     position: absolute;
     background-color: grey;
@@ -15,14 +15,19 @@ li > ul{
     display: block;
 }
 
-ul > a:hover {
+li:hover ul {
     display: block;
 }
 
-#menu > li{
+#menu li{
     list-style: none;
     float: left;
     margin: 6px;
     padding: 1px 2px;
     background-color: grey;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
