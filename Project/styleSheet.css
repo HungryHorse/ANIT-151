@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Hill_House;
+    src: url(Hill_House.otf);
+}
+
+#container{
+    width:500px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+#container h2{
+    font-family: Hill_House;
+    text-align: center;
+    font-weight: normal;
+}
+
+#container p{
+    font-family: Hill_House;
+    width: 500px;
+    text-align: center;
+}
+
+#container div{
+    text-align: center;
+}
+
+#normalButton{
+    border-radius: 15px;
+    border-color: #99CCFF;
+    font-family: Hill_House;
+    background-color: #33CCCC;
+    color: white;
+    font-size: 25px;
+}
+
+#normalButton:hover {
+    background-color: white;
+    color: #33CCCC;
+}
