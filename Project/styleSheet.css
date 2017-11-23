@@ -32,6 +32,7 @@
     background-color: #33CCCC;
     color: white;
     font-size: 25px;
+    margin: 5px;
 }
 
 #normalButton:hover {

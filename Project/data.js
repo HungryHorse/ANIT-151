@@ -19,4 +19,30 @@ var roomArray = [
             }
         ]
     },
+    {
+        title:'Main corridor',
+        text:'This is the main corridor from here you can anywhere in the ship.',
+        choices:[
+            {
+                text:'Go to the pool',
+                index:2
+            },
+            {
+                text:'Go to theatre',
+                index:6
+            },
+            {
+                text:'Go to main hall',
+                index:9
+            },
+            {
+                text:'Go to gym',
+                index:0
+            },
+            {
+                text:'Go to sports centre',
+                index:0
+            }
+        ]
+    }
 ]
