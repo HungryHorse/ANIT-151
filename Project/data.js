@@ -1,47 +1,22 @@
 var roomArray = [
     {
-        title:'Party in the main hall',
-        text:'After that amazing day on the open sea you decide to attend the ball that was planned tonight in the main hall. After a few hours of partying and socialising the world starts to spin, you start to sway and then suddenly as if someone just turned the lights off everything goes dark...',
+        title:'Your room',
+        text:'The detective first moves to investigate your room and see if there are any clues to your disappearance. You realise you could use your powers to guide him towards the first clue; the cake fork you used in defense, locked in a drawer in the corner of the room.',
         choices:[
             {
-                text:'Continue',
-                index:1
-            }
-        ]
-    },
-    {
-        title:'Your cabin',
-        text:'You awake in your cabin with a strong headache and a fowl taste in your mouth. Groggily you sit up in your bed and almost out of instinct your hands move to your neck to check for it… but it’s not there in a fit of panic you jump up and begin to rip the room apart. Your family pendant, it’s gone.',
-        choices:[
-            {
-                text:'Go into the main corridor',
-                index:2
-            }
-        ]
-    },
-    {
-        title:'Main corridor',
-        text:'This is the main corridor from here you can anywhere in the ship.',
-        choices:[
-            {
-                text:'Go to the pool',
-                index:2
+                text:'Push the chest of drawers',
+                index:1,
+                buttonText:'Push'
             },
             {
-                text:'Go to theatre',
-                index:6
+              text:'Possess the locking mechanism to unlock',
+              index:2,
+              buttonText:'Possess'
             },
             {
-                text:'Go to main hall',
-                index:9
-            },
-            {
-                text:'Go to gym',
-                index:0
-            },
-            {
-                text:'Go to sports centre',
-                index:0
+              text:'Illuminate the chest of drawers',
+              index:3,
+              buttonText:'Illuminate'
             }
         ]
     }

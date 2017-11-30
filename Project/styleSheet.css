@@ -1,3 +1,7 @@
+body{
+  background: #664420 url(frame.png) fixed;
+  background-size: 100% 100%;
+}
 @font-face {
     font-family: Hill_House;
     src: url(Hill_House.otf);
@@ -5,7 +9,8 @@
 
 #container{
     width:500px;
-    margin: 0 auto;
+    height: 100%;
+    margin: 6% auto;
     font-size: 25px;
 }
 
@@ -21,21 +26,54 @@
     text-align: center;
 }
 
+#container #roomButton p{
+  font-size: 23px;
+}
+
 #container div{
     text-align: center;
 }
 
 #normalButton{
     border-radius: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
     border-color: #99CCFF;
     font-family: Hill_House;
-    background-color: #33CCCC;
+    background-color: #204266;
     color: white;
     font-size: 25px;
     margin: 5px;
 }
 
 #normalButton:hover {
-    background-color: white;
+    background-color: #204266;
     color: #33CCCC;
+}
+
+#normalButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#normalButton span:after {
+  font-family: Hil_House;
+  font-size: 25px;
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#normalButton:hover span {
+  padding-right: 25px;
+}
+
+#normalButton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
