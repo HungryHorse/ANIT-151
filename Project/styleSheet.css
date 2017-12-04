@@ -8,13 +8,23 @@ body{
 }
 
 #container{
-    width:500px;
+    width:65%;
     height: 100%;
     margin: 6% auto;
-    font-size: 25px;
+    font-size: 1.0vw;
 }
 
-#container h2{
+#container #h2Container{
+    margin: auto;
+    height: 100%;
+    width: 20%;
+    background: url(Plaque.png) center no-repeat;
+    background-size: 100% 100%;
+}
+
+#container #h2Container h2{
+    padding: 19px;
+    padding-top: 35px;
     font-family: Hill_House;
     text-align: center;
     font-weight: normal;
@@ -22,12 +32,13 @@ body{
 
 #container p{
     font-family: Hill_House;
-    width: 500px;
+    padding-top: 2%;
+    width: 100%;
     text-align: center;
 }
 
 #container #roomButton p{
-  font-size: 23px;
+  font-size: 0.9vw;
 }
 
 #container div{
@@ -42,7 +53,7 @@ body{
     font-family: Hill_House;
     background-color: #204266;
     color: white;
-    font-size: 25px;
+    font-size:1.0vw;
     margin: 5px;
 }
 
@@ -60,7 +71,7 @@ body{
 
 #normalButton span:after {
   font-family: Hil_House;
-  font-size: 25px;
+  font-size: 1.0vw;
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -70,7 +81,7 @@ body{
 }
 
 #normalButton:hover span {
-  padding-right: 25px;
+  padding-right: 1.0vw;
 }
 
 #normalButton:hover span:after {
