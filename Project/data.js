@@ -111,5 +111,113 @@ var roomArray = [
                 buttonText:'Illuminate'
             }
         ]
+    },
+    {
+        title:'Kitchen',
+        text:'You push the knife but it just sinks back to the bottom and gets lost amongst the rest of them.',
+        choices:[
+            {
+                text:'You realise you failed to draw the detective’s attention to the murderer’s weapon',
+                index:14,
+                buttonText:'Continue'
+            }
+        ]
+    },
+    {
+        title:'Kitchen',
+        text:'You drain the sink and with it the blood that was tinting the water red.',
+        choices:[
+            {
+                text:'You realise you failed to draw the detective’s attention to the murderer’s weapon',
+                index:14,
+                buttonText:'Continue'
+            }
+        ]
+    },
+    {
+        title:'Kitchen',
+        text:'You draw attention to the water inside the sink, the detective notices and decides to walk over and investigate the fact that there is an unusual amount of blood for a standard kitchen.',
+        choices:[
+            {
+                text:'Push the knife away from the others in the sink',
+                index:11,
+                buttonText:'Push'
+            },
+            {
+                text:'Possess the plug to drain the water from the sink',
+                index:12,
+                buttonText:'Possess'
+            }
+        ]
+    },
+    {
+        title:'Kitchen',
+        text:'You push the knife but it just sinks back to the bottom and gets lost amongst the rest of them.',
+        choices:[
+            {
+                text:'You realise you failed to draw the detective’s attention to the murderer’s weapon',
+                index:14,
+                buttonText:'Continue'
+            }
+        ]
+    },
+    {
+        title:'Kitchen',
+        text:'You push the knife but it just sinks back to the bottom and gets lost amongst the rest of them.',
+        choices:[
+            {
+                text:'Push the knife away from all the others in the sink',
+                index:13,
+                buttonText:'Push'
+            }
+        ]
+    },
+    {
+        title:'Kitchen',
+        text:'With the knife revealed, the detective notices the abnormally large knife and the red tinge to the blade. This may be evidence as well, he decides, placing it into an evidence bag.',
+        choices:[
+            {
+                text:'You successfully drew the detective to the murder weapon',
+                index:14,
+                buttonText:'Continue'
+            }
+        ]
+    },
+    {
+        title:'Engine Room',
+        text:'You guide the detective to the engine rooms, where your body is stashed on a high shelf in a storage cupboard.',
+        choices:[
+            {
+                text:'Push the door to the cupboard',
+                index:15,
+                buttonText:'Push',
+            },
+            {
+                text:'Possess the shelving system to tip your body off and onto the floor of the cupboard',
+                index:16,
+                buttonText:'Possess',
+            },
+            {
+                text:'Illuminate the door to the cupboard',
+                index:17,
+                buttonText:'Illuminate',
+            }
+        ]
+    },
+    {
+        title:'Engine Room',
+        text:'You open the door to the storage cupboard.',
+        choices:[
+            {
+                text:'Possess the shelving system to tip your body off and onto the floor of the cupboard',
+                index:18,
+                buttonText:'Possess',
+            },
+            {
+                text:'Illuminate the doorway',
+                index:19,
+                buttonText:'Illuminate',
+            }
+        ]
     }
 ]
