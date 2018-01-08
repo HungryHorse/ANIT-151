@@ -219,5 +219,95 @@ var roomArray = [
                 buttonText:'Illuminate',
             }
         ]
-    }
+    },
+    {
+        title:'Engine Room',
+        text:'Your body falls off of the shelves, landing heavily on the floor of the cupboard, blocking the doorway. The detective decides to investigate the commotion, but upon discovering he can’t open the door, he gives up and walks away to continue his investigation.',
+        choices:[
+            {
+                text:'You realise you failed to draw the detective to your body.',
+                index:22,
+                buttonText:'Continue',
+            }
+        ]
+    },
+    {
+        title:'Engine Room',
+        text:'You draw the detective’s attention to the cupboard, which sparks memories of the empty closet in his grandma’s house where he would make forts as a child.',
+        choices:[
+            {
+                text:'You realise you failed to draw the detective to your body.',
+                index:22,
+                buttonText:'Continue',
+            }
+        ]
+    },
+    {
+        title:'Engine Room',
+        text:'Your body falls from the shelves, landing heavily on the floor of the cupboard.',
+        choices:[
+            {
+                text:'Illuminate your corpse',
+                index:20,
+                buttonText:'Illuminate',
+            }
+        ]
+    },
+    {
+        title:'Engine Room',
+        text:'You draw the detective’s attention to the ajar cupboard. He walks over to investigate.',
+        choices:[
+            {
+                text:'Possess the shelving system so it tips off your body',
+                index:21,
+                buttonText:'Possess',
+            }
+        ]
+    },
+    {
+        title:'Engine Room',
+        text:'He sees your corpse as he approaches the cupboard. Upon further inspection of your body, he discovers a deep stab wound in your stomach.',
+        addText:' It matches the knife you lead him to find in the kitchen.',
+        choices:[
+            {
+                text:'You successfully lead the detective to find your corpse.',
+                index:22,
+                buttonText:'Continue',
+            }
+        ]
+    },
+    {
+        title:'Engine Room',
+        text:'Your body falls heavily onto the floor of the cupboard, landing at the detectives feet, in shock he jumps backwards slightly. Upon further inspection of your body, he discovers a deep stab wound in your stomach.',
+        addText:' It matches the knife you lead him to find in the kitchen.',
+        choices:[
+            {
+                text:'You successfully lead the detective to find your corpse.',
+                index:22,
+                buttonText:'Continue',
+            }
+        ]
+    },
+    {
+        title:'Ballroom',
+        text:'You next lead the detective to the ballroom where one of your friends, who saw who went with you to your room, is dancing. She could lead the detective to your killer. However the ballroom is packed and it is impossible for the detective to see her.',
+        choices:[
+            {
+                text:'Push her apart from her group',
+                index:23,
+                buttonText:'Push',
+            },
+            {
+                text:'Possess the chandelier’s hook to make it fall',
+                index:24,
+                buttonText:'Possess',
+            },
+            {
+                text:'Illuminate the mass of people dancing',
+                index:25,
+                buttonText:'Illuminate',
+            }
+        ]
+    },
+
 ]
