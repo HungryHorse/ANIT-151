@@ -309,5 +309,48 @@ var roomArray = [
             }
         ]
     },
+    {
+        title:'Ballroom',
+        text:'She stumbles apart from her group, slightly shocked she regains her balance and walks back towards them. There are too many people in the way for the detective to even notice the commotion.',
+        choices:[
+            {
+                text:'You realise you failed to get the detective to talk to your friend',
+                index:29,
+                buttonText:'Continue',
+            }
+        ]
+    },
+    {
+        title:'Ballroom',
+        text:'You release the system on the chandelier and it falls to the floor. Everyone jumps back in surprise as it crashes down, the room in disarray, giving the detective a clear sight line to your friends group.',
+        choices:[
+            {
+                text:'Push her apart from her group',
+                index:26,
+                buttonText:'Push',
+            },
+            {
+              text:'Illuminate the group she is in',
+              index:27,
+              buttonText:'Illuminate',
+            }
+        ]
+    },
+    {
+        title:'Ballroom',
+        text:'You release the system on the chandelier and it falls to the floor. Everyone jumps back in surprise as it crashes down, the room in disarray, giving the detective a clear sight line to your friends group.',
+        choices:[
+            {
+                text:'Push her apart from her group',
+                index:26,
+                buttonText:'Push',
+            },
+            {
+              text:'Illuminate the group she is in',
+              index:27,
+              buttonText:'Illuminate',
+            }
+        ]
+    },
 
 ]
