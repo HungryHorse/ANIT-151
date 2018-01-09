@@ -338,17 +338,45 @@ var roomArray = [
     },
     {
         title:'Ballroom',
-        text:'You release the system on the chandelier and it falls to the floor. Everyone jumps back in surprise as it crashes down, the room in disarray, giving the detective a clear sight line to your friends group.',
+        text:'You draw his attention to the huge crowd of people in front of him. He thinks to himself, “Wow, this ballroom is absolutely packed, I didn’t even know there were this many people on the ship.”',
         choices:[
             {
-                text:'Push her apart from her group',
-                index:26,
-                buttonText:'Push',
-            },
+                text:'You realise you have failed to get the detective to talk to your friend',
+                index:29,
+                buttonText:'Continue',
+            }
+        ]
+    },
+    {
+        title:'Ballroom',
+        text:'She stumbles apart from her group, as she is about to trip over backwards the detective, without even really thinking, moves to catch her.',
+        choices:[
             {
-              text:'Illuminate the group she is in',
-              index:27,
-              buttonText:'Illuminate',
+                text:'Illuminate her',
+                index:28,
+                buttonText:'Illuminate',
+            }
+        ]
+    },
+    {
+        title:'Ballroom',
+        text:'He notices the extravagant group of people all looking concerned about the now destroyed chandelier in the centre of the room. The detective sighs with relief that no one was hurt in the commotion.',
+        choices:[
+            {
+                text:'You realise you have failed to get the detective to talk to your friend',
+                index:29,
+                buttonText:'Continue',
+            }
+        ]
+    },
+    {
+        title:'Ballroom',
+        text:'The detective grabs her just in time to stop her falling, and as she is regaining her balance he notices that he saw you and her together earlier in the night. He decided to ask her about it, she says she remembers you leaving with a man called Christopher Oxford. The detective decides it’s time for a little chat.',
+        choices:[
+            {
+                text:'You successfully lead the detective to your friend',
+                index:29,
+                buttonText:'Continue',
             }
         ]
     },
