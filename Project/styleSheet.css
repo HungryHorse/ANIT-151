@@ -19,6 +19,13 @@ a{
     font-size: 1.0vw;
 }
 
+#containerSmol{
+    width:65%;
+    height: 100%;
+    margin: 3% auto;
+    font-size: 0.8vw;
+}
+
 h2{
   font-family: Hill_House;
   text-align: center;
@@ -64,6 +71,20 @@ h2{
 }
 
 #container div{
+    text-align: center;
+}
+
+#containerSmol p{
+    font-family: Hill_House;
+    width: 100%;
+    text-align: center;
+}
+
+#containerSmol #roomButton p{
+  font-size: 0.9vw;
+}
+
+#containerSmol div{
     text-align: center;
 }
 

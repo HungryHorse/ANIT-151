@@ -163,7 +163,7 @@ var roomArray = [
     },
     {
         title:'Kitchen',
-        text:'You push the knife but it just sinks back to the bottom and gets lost amongst the rest of them.',
+        text:'The sink drains slowly, revealing the cutlery inside. The knife remains hidden under all the other cutlery.',
         choices:[
             {
                 text:'Push the knife away from all the others in the sink',

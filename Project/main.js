@@ -50,6 +50,7 @@ function SelectRoom(roomIndex)
 
 		case 28:
 			clue4 = true;
+			break;
 
 		case 35:
 			clue5 = true;
@@ -69,73 +70,74 @@ function SelectRoom(roomIndex)
 
 function Ending(roomIndex)
 {
-		if (clue1){
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending2;
-		}
-		else if (clue2) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending3;
-		}
-		else if (clue3) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending4;
-		}
-		else if (clue4) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending5;
-		}
-		else if (clue1 && clue2) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending6;
-		}
-		else if (clue1 && clue3) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending7;
-		}
-		else if (clue1 && clue4) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending8;
-		}
-		else if (clue2 && clue3) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending9;
-		}
-		else if (clue2 && clue4) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending10;
-		}
-		else if (clue3 && clue4) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending11;
-		}
-		else if (clue4 && clue5) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending12;
-		}
-		else if (clue1 && clue2 && clue3) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending13;
-		}
-		else if (clue1 && clue4 && clue5) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending14;
-		}
-		else if (clue1 && clue2 && clue4) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending15;
-		}
-		else if (clue2 && clue3 && clue4) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending16;
-		}
-		else if (clue2 && clue4 && clue5) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending17;
-		}
-		else if (clue3 && clue4 && clue5) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending18;
-		}
-		else if (clue1 && clue2 && clue3 && clu4) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending19;
-		}
-		else if (clue1 && clue2 && clue4 && clue5) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending20;
-		}
-		else if (clue1 && clue3 && clue4 && clue5) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending21;
+		if (clue1 && clue2 && clue3 && clue4 && clue5) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending23;
 		}
 		else if (clue2 && clue3 && clue4 && clue5) {
 			document.getElementById('description').innerHTML = roomArray[roomIndex].ending22;
 		}
-		else if (clue1 && clue2 && clue3 && clue4 && clue5) {
-			document.getElementById('description').innerHTML = roomArray[roomIndex].ending23;
+		else if (clue1 && clue3 && clue4 && clue5) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending21;
 		}
-	  else{
+		else if (clue1 && clue2 && clue4 && clue5) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending20;
+		}
+		else if (clue1 && clue2 && clue3 && clue4) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending19;
+		}
+		else if (clue3 && clue4 && clue5) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending18;
+		}
+		else if (clue2 && clue4 && clue5) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending17;
+		}
+		else if (clue2 && clue3 && clue4) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending16;
+		}
+		else if (clue1 && clue2 && clue4) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending15;
+		}
+		else if (clue1 && clue4 && clue5) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending14;
+		}
+		else if (clue1 && clue2 && clue3) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending13;
+		}
+		else if (clue4 && clue5) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending12;
+		}
+		else if (clue3 && clue4) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending11;
+		}
+		else if (clue2 && clue4) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending10;
+		}
+		else if (clue2 && clue3) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending9;
+		}
+		else if (clue1 && clue4) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending8;
+		}
+		else if (clue1 && clue3) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending7;
+		}
+		else if (clue1 && clue2) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending6;
+		}
+		else if (clue4) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending5;
+		}
+		else if (clue3) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending4;
+		}
+		else if (clue2) {
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending3;
+		}
+		else if (clue1){
+			document.getElementById('description').innerHTML = roomArray[roomIndex].ending2;
+		}
+
+	  	else{
 			document.getElementById('description').innerHTML = roomArray[roomIndex].ending1;
 		}
 }
