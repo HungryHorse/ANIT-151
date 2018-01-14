@@ -2,12 +2,25 @@ var clue1 = false;
 var clue2 = false;
 var clue3 = false;
 var clue4 = false;
-var clue5 = false
+var clue5 = false;
+
+var drawerShove = new Audio("Drawer_Shove.mp3");
+var lock = new Audio("Lock.mp3");
+var illuminate = new Audio("Illuminate.mp3");
+var drawerOpen = new Audio("Drawer_Open.mp3");
+var knifeWater = new Audio("Water.mp3");
+var plug = new Audio("Plug.mp3");
+var knife = new Audio("Knife.mp3");
+var door = new Audio("Door.mp3");
+var falling = new Audio("Falling.mp3");
+var stumble = new Audio("stumble.mp3");
+var fallingChandelier = new Audio("Falling_and_Breaking.mp3");
+var toiletries = new Audio("Falling_Items.mp3");
+var tapExplode = new Audio("WaterTap.mp3");
 
 function OnLoad()
 {
 	SelectRoom(0);
-
 }
 
 function SelectRoom(roomIndex)
@@ -18,7 +31,7 @@ function SelectRoom(roomIndex)
 	if(roomIndex != 36) {
 		for (var i = 0; i < roomArray[roomIndex].choices.length; i++) {
 			var text = "<p id='buttonTextTag'>" + roomArray[roomIndex].choices[i].text + "</p>";
-			var roomChoices = "<button id='normalButton' type='button' onclick=SelectRoom(" + roomArray[roomIndex].choices[i].index + ") style='vertical-align:middle'><span>" + roomArray[roomIndex].choices[i].buttonText + "</span></button>";
+			var roomChoices = "<button id='normalButton' type='button' onclick=ToDo(" + roomArray[roomIndex].choices[i].index + "," + roomArray[roomIndex].choices[i].audio + ") style='vertical-align:middle'><span>" + roomArray[roomIndex].choices[i].buttonText + "</span></button>";
 			document.getElementById("roomButton").innerHTML += text;
 			document.getElementById("roomButton").innerHTML += roomChoices;
 			document.getElementById("roomButton").innerHTML += '</br>'
@@ -66,6 +79,13 @@ function SelectRoom(roomIndex)
 		default:
 			break;
 	}
+
+	GetMusic(roomIndex);
+}
+
+function ToDo(roomIndex, roomAudio){
+	GetAudioCue(roomAudio);
+	SelectRoom(roomIndex);
 }
 
 function Ending(roomIndex)
@@ -140,4 +160,30 @@ function Ending(roomIndex)
 	  	else{
 			document.getElementById('description').innerHTML = roomArray[roomIndex].ending1;
 		}
+}
+
+function GetMusic(roomIndex){
+	switch (roomIndex) {
+		case 0:
+			document.getElementById('Music').innerHTML = "<audio autoplay> <source src='Your_Room.mp3' type='audio/mpeg'> Your browser does not support the audio element. </audio>";
+			break;
+		case 7:
+			document.getElementById('Music').innerHTML = "<audio autoplay> <source src='Kitchen.mp3' type='audio/mpeg'> Your browser does not support the audio element. </audio>";
+			break;
+		case 14:
+			document.getElementById('Music').innerHTML = "<audio autoplay> <source src='Engine_Room.mp3' type='audio/mpeg'> Your browser does not support the audio element. </audio>";
+			break;
+		case 22:
+			document.getElementById('Music').innerHTML = "<audio autoplay> <source src='Ballroom.mp3' type='audio/mpeg'> Your browser does not support the audio element. </audio>";
+			break;
+		case 29:
+			document.getElementById('Music').innerHTML = "<audio autoplay> <source src='Christopher'sRoom.mp3' type='audio/mpeg'> Your browser does not support the audio element. </audio>";
+			break;
+		default:
+
+	}
+}
+
+function GetAudioCue(room){
+	room.play();
 }

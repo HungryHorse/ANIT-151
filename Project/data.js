@@ -1,3 +1,5 @@
+
+
 var roomArray = [
     {
         title:'Your room',
@@ -6,16 +8,19 @@ var roomArray = [
             {
                 text:'Push the chest of drawers',
                 index:1,
+                audio:'drawerShove',
                 buttonText:'Push'
             },
             {
               text:'Possess the locking mechanism to unlock',
               index:2,
+              audio:'lock',
               buttonText:'Possess'
             },
             {
               text:'Illuminate the chest of drawers',
               index:3,
+              audio:'illuminate',
               buttonText:'Illuminate'
             }
         ]
@@ -38,11 +43,13 @@ var roomArray = [
             {
                 text:'Push the drawer open',
                 index:4,
+                audio:'drawerOpen',
                 buttonText:'Push'
             },
             {
                 text:'Illuminate the drawer',
                 index:5,
+                audio:'illuminate',
                 buttonText:'Illuminate'
             }
         ]
@@ -65,6 +72,7 @@ var roomArray = [
             {
                 text:'Illuminate the fork inside the drawer',
                 index:6,
+                audio:'illuminate',
                 buttonText:'Illuminate'
             }
         ]
@@ -98,16 +106,19 @@ var roomArray = [
             {
                 text:'Push the knife away from the others in the sink',
                 index:8,
+                audio:'knifeWater',
                 buttonText:'Push'
             },
             {
                 text:'Possess the plug to drain the sink',
                 index:9,
+                audio:'plug',
                 buttonText:'Possess'
             },
             {
                 text:'Illuminate the bloody water in the sink',
                 index:10,
+                audio:'illuminate',
                 buttonText:'Illuminate'
             }
         ]
@@ -130,6 +141,7 @@ var roomArray = [
             {
                 text:'You realise you failed to draw the detective’s attention to the murderer’s weapon',
                 index:14,
+                audio:'plug',
                 buttonText:'Continue'
             }
         ]
@@ -141,11 +153,13 @@ var roomArray = [
             {
                 text:'Push the knife away from the others in the sink',
                 index:11,
+                audio:'knifeWater',
                 buttonText:'Push'
             },
             {
                 text:'Possess the plug to drain the water from the sink',
                 index:12,
+                audio:'plug',
                 buttonText:'Possess'
             }
         ]
@@ -168,6 +182,7 @@ var roomArray = [
             {
                 text:'Push the knife away from all the others in the sink',
                 index:13,
+                audio:'knife',
                 buttonText:'Push'
             }
         ]
@@ -190,16 +205,19 @@ var roomArray = [
             {
                 text:'Push the door to the cupboard',
                 index:15,
+                audio:'door',
                 buttonText:'Push',
             },
             {
                 text:'Possess the shelving system to tip your body off and onto the floor of the cupboard',
                 index:16,
+                audio:'falling',
                 buttonText:'Possess',
             },
             {
                 text:'Illuminate the door to the cupboard',
                 index:17,
+                audio:'illuminate',
                 buttonText:'Illuminate',
             }
         ]
@@ -211,11 +229,13 @@ var roomArray = [
             {
                 text:'Possess the shelving system to tip your body off and onto the floor of the cupboard',
                 index:18,
+                audio:'falling',
                 buttonText:'Possess',
             },
             {
                 text:'Illuminate the doorway',
                 index:19,
+                audio:'illuminate',
                 buttonText:'Illuminate',
             }
         ]
@@ -249,6 +269,7 @@ var roomArray = [
             {
                 text:'Illuminate your corpse',
                 index:20,
+                audio:'illuminate',
                 buttonText:'Illuminate',
             }
         ]
@@ -260,6 +281,7 @@ var roomArray = [
             {
                 text:'Possess the shelving system so it tips off your body',
                 index:21,
+                audio:'falling',
                 buttonText:'Possess',
             }
         ]
@@ -295,16 +317,19 @@ var roomArray = [
             {
                 text:'Push her apart from her group',
                 index:23,
+                audio:'stumble',
                 buttonText:'Push',
             },
             {
                 text:'Possess the chandelier’s hook to make it fall',
                 index:24,
+                audio:'fallingChandelier',
                 buttonText:'Possess',
             },
             {
                 text:'Illuminate the mass of people dancing',
                 index:25,
+                audio:'illuminate',
                 buttonText:'Illuminate',
             }
         ]
@@ -327,11 +352,13 @@ var roomArray = [
             {
                 text:'Push her apart from her group',
                 index:26,
+                audio:'stumble',
                 buttonText:'Push',
             },
             {
               text:'Illuminate the group she is in',
               index:27,
+              audio:'illuminate',
               buttonText:'Illuminate',
             }
         ]
@@ -354,6 +381,7 @@ var roomArray = [
             {
                 text:'Illuminate her',
                 index:28,
+                audio:'illuminate',
                 buttonText:'Illuminate',
             }
         ]
@@ -387,16 +415,19 @@ var roomArray = [
             {
                 text:'Push his toiletries off the shelf',
                 index:30,
+                audio:'toiletries',
                 buttonText:'Push',
             },
             {
                 text:'Possess the tap and make it explode',
                 index:31,
+                audio:'tapExplode',
                 buttonText:'Possess',
             },
             {
                 text:'Illuminate the side of Christopher\'s body',
                 index:32,
+                audio:'illuminate',
                 buttonText:'Illuminate',
             }
         ]
@@ -408,11 +439,13 @@ var roomArray = [
             {
                 text:'Possess the tap and make it explode water over Christopher',
                 index:33,
+                audio:'tapExplode',
                 buttonText:'Possess',
             },
             {
                 text:'Illuminate the side of Christopher’s body',
                 index:34,
+                audio:'illuminate',
                 buttonText:'Illuminate',
             }
         ]
@@ -446,6 +479,7 @@ var roomArray = [
             {
                 text:'Illuminate the wound on Christopher’s side',
                 index:35,
+                audio:'illuminate',
                 buttonText:'Illuminate',
             }
         ]
