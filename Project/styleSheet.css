@@ -13,7 +13,7 @@ a{
 }
 
 #container{
-    width:65%;
+    width:85%;
     height: 100%;
     margin: 3% auto;
     font-size: 1.0vw;
@@ -33,6 +33,7 @@ h2{
 }
 
 #container #h2Container{
+    padding-right: 7px;
     margin: auto;
     height: 100%;
     width: 20%;
