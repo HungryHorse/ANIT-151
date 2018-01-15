@@ -84,7 +84,11 @@ function SelectRoom(roomIndex)
 }
 
 function ToDo(roomIndex, roomAudio){
+	try
+	{
 	GetAudioCue(roomAudio);
+	}
+	catch(err){}
 	SelectRoom(roomIndex);
 }
 
