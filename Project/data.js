@@ -141,7 +141,6 @@ var roomArray = [
             {
                 text:'You realise you failed to draw the detective’s attention to the murderer’s weapon',
                 index:14,
-                audio:'plug',
                 buttonText:'Continue'
             }
         ]
