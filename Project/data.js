@@ -509,6 +509,13 @@ var roomArray = [
     {
       title:'Ending',
       text:'Ending should appear here',
+      choices:[
+          {
+              text:'',
+              index:0,
+              buttonText:'Replay',
+          }
+      ],
       ending1:'The detective still believes you’re missing and has no idea where you could have gone. As the cruise has come to an end and he has found no clues or leads, he is forced to abandon the investigation, leaving your murder unknown and unsolved. ',
       ending2:'As you’ve only led the detective to one of the clues, the bloody cake fork, he still believes you’re missing, although suspects that something more sinister may have happened to you. Nevertheless, with no other clues or leads to follow, he is forced to abandon the investigation, leaving your murder unsolved.',
       ending3:'As you’ve only led the detective to the bloodied knife in the kitchen, he still believes you’re missing, and with no further clues, there is nothing to suggest that there’s anything unusual afoot. With no other clues to look into, he is forced to abandon the investigation of your disappearance.',
